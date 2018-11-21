@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "mplifypp-20181119123346-authRole",
+			"UnauthRoleArn": "arn:aws:iam::825736826306:role/mplifypp-20181119123346-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::825736826306:role/mplifypp-20181119123346-authRole",
+			"Region": "eu-central-1",
+			"DeploymentBucketName": "mplifypp-20181119123346-deployment",
+			"UnauthRoleName": "mplifypp-20181119123346-unauthRole",
+			"StackName": "mplifypp-20181119123346",
+			"StackId": "arn:aws:cloudformation:eu-central-1:825736826306:stack/mplifypp-20181119123346/98fca620-ebe6-11e8-8b4f-503f2ad2e59a"
+		}
+	},
+	"auth": {
+		"cognito50afb506": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/mplifypp-20181119123346-deployment/amplify-cfn-templates/auth/cognito50afb506-cloudformation-template.yml",
+				"logicalId": "authcognito50afb506"
+			},
+			"lastPushTimeStamp": "2018-11-19T12:24:59.064Z",
+			"output": {
+				"AppClientSecret": "1706b5d4e2ugrr6qc8smm6pt4s6kk1ihdhi07o2n2dgrk6sa064b",
+				"UserPoolId": "eu-central-1_73PCkoYQ2",
+				"AppClientIDWeb": "p5rmr13m98qbc17oo1lsi9bm0",
+				"AppClientID": "1seoge2ljdtl0omn6vvq7sdgmo",
+				"IdentityPoolId": "eu-central-1:4623de8a-bc76-4f03-88f3-569fa8f0c583",
+				"IdentityPoolName": "cognito50afb506_identitypool_50afb506",
+				"UserPoolName": "cognito50afb506_userpool_50afb506"
+			},
+			"lastPushDirHash": "SmEWo77TXzUgaLFWL9JNfBdeRi4="
+		}
+	},
+	"api": {
+		"AmplifyWorkshopTest": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "qj2tnwgacndibcd7de5t3734ay",
+				"GraphQLAPIEndpointOutput": "https://6v7nr7v3hng35ibt5skkul3674.appsync-api.eu-central-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-fbdbcdsljnh65osgyyjlietmue"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/mplifypp-20181119123346-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiAmplifyWorkshopTest"
+			},
+			"lastPushTimeStamp": "2018-11-19T12:24:59.079Z",
+			"lastPushDirHash": "uYDWljFgVrhRMk+8OMk7r3K8K/U="
+		}
+	}
+}

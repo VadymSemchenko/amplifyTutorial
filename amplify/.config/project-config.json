@@ -1,0 +1,20 @@
+{
+    "projectName": "AmplifyApp",
+    "projectPath": "/home/vadym/study/nader-dabit/AmplifyApp",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/usr/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react-native",
+        "config": {
+            "SourceDir": "/",
+            "DistributionDir": "/",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/usr/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items/pets",
+            "lambdaFunction": "amplify00190019",
+            "privacy": {
+                "private": true,
+                "auth": "rw"
+            }
+        }
+    ],
+    "resourceName": "amplifyrestapi",
+    "apiName": "amplifyappde04a2f3",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplify00190019"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "mplifypp-20181119123346-authRole",
+        "unAuthRoleName": "mplifypp-20181119123346-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplify00190019",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
